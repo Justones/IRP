@@ -13,12 +13,15 @@
 - Python3, NVIDIA GPU + Anaconda
 - torch, torchvision, numpy, pillow, opencv-python, pretrainedmodels, glob, guided_filter_pytorch
 
+
+-      -      -
 ### Datasets
 
 - Synthetic data: The synthetic data can be found in the above link, including training images, test images, and IRP labels.
 - Real data: Any RGB image from the real world can be employed as the input.
 
-------
+-     -     -
+
 ### Train
 
 1. Prepare training data
@@ -28,7 +31,7 @@
 ```
 python train.py
 ```
-------
+-    -     -
 
 
 ### Test
@@ -39,7 +42,7 @@ Update the `config.weights_path` configuration in the `test.py` file with the fi
 ```
 python test.py
 ```
-------
+-      -     -
 
 ### Citation
 
